@@ -29,7 +29,7 @@ A blogging platform built with Laravel 11 where users can create, read, and mana
 
 ### Step 1: Clone the Project
 ```bash
-git clone https://github.com/engsahaly/laravel_course_level_1_project.git
+git clone https://github.com/mohammedserry/Blogs-App-Laravel
 cd blogs-app
 ```
 
