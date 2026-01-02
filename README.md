@@ -1,10 +1,10 @@
 # Blogs Application
 
-> A modern, scalable, and feature-rich blogging platform built with Laravel 11 and React/Inertia.js framework.
+> A modern, scalable, and feature-rich blogging platform built with Laravel 11 and Alpine.js for dynamic interactivity.
 
 [![Laravel](https://img.shields.io/badge/Laravel-11.x-FF2D20?style=flat-square&logo=laravel)](https://laravel.com)
 [![PHP](https://img.shields.io/badge/PHP-8.4-777BB4?style=flat-square&logo=php)](https://www.php.net)
-[![React](https://img.shields.io/badge/React-Latest-61DAFB?style=flat-square&logo=react)](https://react.dev)
+[![Alpine.js](https://img.shields.io/badge/Alpine.js-3.x-77DBC3?style=flat-square&logo=alpinedotjs)](https://alpinejs.dev)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
 ---
@@ -29,7 +29,7 @@
 
 ## Overview
 
-This is a comprehensive blogging application designed to demonstrate modern web development practices using Laravel framework combined with React for dynamic frontend experiences. The application includes complete CRUD operations for blog posts, category management, user authentication, and visitor engagement through comments and newsletters.
+This is a comprehensive blogging application designed to demonstrate modern web development practices using Laravel framework combined with Alpine.js for lightweight frontend interactivity. The application includes complete CRUD operations for blog posts, category management, user authentication, and visitor engagement through comments and newsletters.
 
 **Key Highlights:**
 - Full-stack MVC architecture with component-based frontend
@@ -54,9 +54,9 @@ This is a comprehensive blogging application designed to demonstrate modern web 
 ### Frontend
 | Technology | Version | Purpose |
 |-----------|---------|---------|
-| React | Latest | UI library |
-| Inertia.js | Latest | Server-side rendering |
-| Tailwind CSS | Latest | Utility-first CSS framework |
+| Alpine.js | 3.x | Lightweight JavaScript framework |
+| Tailwind CSS | 3.x | Utility-first CSS framework |
+| Blade Templates | Latest | Laravel templating engine |
 | Vite | 7.x | Build tool & dev server |
 
 ### Development Tools
@@ -65,9 +65,8 @@ This is a comprehensive blogging application designed to demonstrate modern web 
 | NPM | Node package management |
 | Pest | Testing framework |
 | PHPStan | Static analysis |
+| Composer | PHP dependency manager |
 | VS Code | Recommended IDE |
-
----
 
 ## System Requirements
 
@@ -347,8 +346,8 @@ blogs-app/
 │   └── factories/                # Model factories for testing
 │
 ├── resources/
-│   ├── js/                       # React components & JavaScript
-│   ├── css/                      # Application styles
+│   ├── js/                       # JavaScript with Alpine.js
+│   ├── css/                      # Tailwind CSS styles
 │   └── views/                    # Blade templates
 │
 ├── routes/
